@@ -13,7 +13,7 @@ const App({Key? key}) : super(key: key);
    return MaterialApp(
     title: 'GoMoon',
     theme: ThemeData(
-      scaffoldBackgroundColor: Color.fromRGBO(10, 31, 31, 1.0),
+      scaffoldBackgroundColor:const Color.fromRGBO(10, 31, 31, 1.0),
       ),
     home: HomePage(),
    );
